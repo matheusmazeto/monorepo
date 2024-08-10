@@ -1,0 +1,23 @@
+{
+  "name": "@repo/eslint-config",
+  "version": "0.0.0",
+  "main": "index.mjs",
+  "private": true,
+  "files": [
+    "library.js",
+    "react.js",
+    "node.js"
+  ],
+  "devDependencies": {
+    "@repo/prettier": "workspace:*",
+    "@rocketseat/eslint-config": "^2.2.2",
+    "eslint": "^8.57.0",
+    "eslint-plugin-simple-import-sort": "^12.1.1"
+  },
+  "prettier": "@repo/prettier",
+  "eslintConfig": {
+    "extends": [
+      "./library.js"
+    ]
+  }
+}
